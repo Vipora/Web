@@ -1,28 +1,29 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div id="app">
+        <div class="absolute pin-r pin-b bg-red h-64 w-64">
+            asd
+        </div>
+    </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+    import style from './assets/style.css'
 
-export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
-}
+    export default {
+        name: 'app'
+    }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+    /* CSS reset height and width to 100% */
+    html, body, #app {
+        height: 100%;
+        width: 100%;
+    }
+    /* OBS transparency */
+    body {
+        background-color: rgba(0, 0, 0, 0);
+        margin: 0px auto;
+        overflow: hidden;
+    }
 </style>
