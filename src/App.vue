@@ -1,16 +1,16 @@
 <template>
     <div id="app">
-        <div class="absolute pin-r pin-b bg-red h-64 w-64">
-            asd
-        </div>
+        <side-panel></side-panel>
     </div>
 </template>
 
 <script>
     import style from './assets/style.css'
+    import SidePanel from './components/SidePanel'
 
     export default {
-        name: 'app'
+        name: 'app',
+        components: { SidePanel },
     }
 </script>
 
