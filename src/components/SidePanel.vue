@@ -65,7 +65,7 @@
         top: calc(50% - 50px);
         height: 100px;
         width: 100px;
-        background-image: url('/img/champion/tiles/Khazix_3.jpg');
+        background-image: url('http://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Khazix_3.jpg');
         background-size: 100% 100%;
         border-radius: 10px;
     }

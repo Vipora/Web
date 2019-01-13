@@ -1,16 +1,14 @@
 <template>
     <div id="app">
-        <side-panel></side-panel>
+        <router-view/>
     </div>
 </template>
 
 <script>
     import style from './assets/style.css'
-    import SidePanel from './components/SidePanel'
 
     export default {
-        name: 'app',
-        components: { SidePanel },
+        name: 'app'
     }
 </script>
 
