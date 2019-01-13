@@ -11,8 +11,8 @@
     export default {
         data: () => ({
             is_open: false
-        }),
-        methods: {
+        }),       
+        methods: {            
             open() {
                 console.log(this.$refs.side_panel)
                 anime({

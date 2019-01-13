@@ -6,9 +6,10 @@
 
 <script>
     import style from './assets/style.css'
-
+    import Navigation from '@/components/Navigation'
     export default {
-        name: 'app'
+        name: 'app',
+        components: {Navigation}
     }
 </script>
 
