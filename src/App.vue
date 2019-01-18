@@ -12,10 +12,14 @@
 </script>
 
 <style>
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700');
+
     /* CSS reset height and width to 100% */
     html, body, #app {
         height: 100%;
         width: 100%;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: medium;
     }
     /* OBS transparency */
     body {

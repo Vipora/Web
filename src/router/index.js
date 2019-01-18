@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import SidePanel from '@/components/SidePanel'
-import Home from '@/components/Home'
-import Login from '@/components/Login'
-import Register from '@/components/Register'
+import Dashboard from '@/pages/Dashboard'
+import Home from '@/pages/Home'
+import Login from '@/pages/Login'
+import Register from '@/pages/Register'
 
 Vue.use(Router)
 
@@ -12,6 +12,6 @@ export default new Router({
         { path: '/', component: Home, name:'home'},
         { path: '/login', component: Login, name:'login' },
         { path: '/signup', component: Register, name:'signup'},
-        { path: '/dashboard/test', component: SidePanel, name:'whatever'},
+        { path: '/dashboard/test', component: Dashboard, name:'dashboard'},
     ]
 })
