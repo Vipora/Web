@@ -7,7 +7,7 @@ import axios from 'axios'
 Vue.config.productionTip = false
 
 // Axios configuration
-axios.defaults.baseURL = 'http://127.0.0.1:3333/api/v1';
+axios.defaults.baseURL = '/api/v1';
 // axios.defaults.headers.common['Authorization'] = AUTH_TOKEN;
 axios.defaults.headers.common['Accept'] = 'application/json';
 
